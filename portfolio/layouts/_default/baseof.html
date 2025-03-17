@@ -1,1 +1,24 @@
-<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }}</title>
+  <link href="{{ "css/main.css" | relURL }}" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-50 dark:bg-custom-onyx text-gray-900 space-y-24 font-sans">
+  <header>
+    {{ partial "navbar.html" . }}
+  </header>
+
+  <main  style="width: 60%; margin-left: 20%; margin-right: 20%; margin-top: 10%;">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+<footer style="width: 100%; margin-top: 2rem; text-align: center;">
+    {{ partial "footer.html" . }}
+</footer>
+</body>
+</html>

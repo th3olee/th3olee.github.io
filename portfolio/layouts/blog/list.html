@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link href="{{ "css/main.css" | relURL }}" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="container mx-auto flex justify-between items-center py-6">
+    <h1 class="text-3xl font-bold">Mon Blog</h1>
+    <nav>
+      <a href="/" class="text-blue-500 hover:underline">Accueil</a>
+    </nav>
+  </header>
+
+  <main class="container mx-auto py-10">
+    <h2 class="text-4xl font-bold mb-6">Articles</h2>
+    <ul>
+        {{ range .Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}" class="text-xl text-blue-500 hover:underline">
+              {{ .Title }}
+            </a>
+          </li>
+        {{ else }}
+          <p>Aucun article publié pour le moment.</p>
+        {{ end }}
+      </ul>
+  </main>
+</body>
+</html>

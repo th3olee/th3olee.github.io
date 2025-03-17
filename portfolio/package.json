@@ -25,7 +25,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "tailwindcss -i ./assets/css/main.css -o ./static/css/main.css --watch"
+    "build:css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./static/css/main.css --watch"
 
   },
   "keywords": [],

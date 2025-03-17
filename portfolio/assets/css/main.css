@@ -1,3 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+
+    --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-poppins: Poppins, sans-serif;
+
+
+    --color-custom-black: #0d0d0d;
+    --color-custom-white: #FFFFFF;
+    --color-custom-onyx: #181818;
+    --color-custom-dark-gray: #808080;
+    --color-custom-medium-gray: #bfbfbf;
+    --color-custom-light-gray: #c5c5c5;
+    --color-custom-light-blue: #acbcf6;
+    --color-custom-light-yellow: #ffe091;
+    --color-custom-light-red: #f6acad;
+}
