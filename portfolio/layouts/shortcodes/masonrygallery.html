@@ -1,0 +1,24 @@
+<div class="grid" id="masonry-grid">
+  {{ range .Page.Resources.Match "*.jpg" }}
+    <div class="grid-item grid-item--height2">
+      <img src="{{ .RelPermalink }}" class="object-cover w-full h-full rounded-lg shadow-md">
+    </div>
+  {{ end }}
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var grid = document.querySelector('#masonry-grid');
+    new Masonry(grid, {
+      itemSelector: '.grid-item',
+      columnWidth: 160,
+      percentPosition: true
+    });
+  });
+</script>
+
+<style>
+  .grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+
+</style>
