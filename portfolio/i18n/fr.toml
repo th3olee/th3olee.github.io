@@ -1,2 +1,6 @@
 [title]
-other = "Salut, Je suis"
+other = "Hey, c'est"
+
+
+[presentation]
+other = "Un développeur axé sur la sécurité construisant des applications résilientes et découvrant les vulnérabilités avant que les attaquants ne le fassent. Je me spécialise dans les tests d'intrusion, le codage sécurisé et la création d'applications modernes avec une défense en profondeur."
