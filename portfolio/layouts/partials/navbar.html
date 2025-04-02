@@ -33,6 +33,21 @@ https://twitter.com/theolejeune" class="hover:underline"><i class="fa-brands fa-
             </li>
             <li> <i class="fa-solid fa-circle-half-stroke"></i>
             </li>
+            <div class="flex space-x-4">
+                {{ range .Site.Languages }}
+                    {{ $flagCode := .Lang }}
+                    {{ if eq .Lang "en" }} {{ $flagCode = "gb" }} {{ end }}
+                    
+                    <a href="{{ .Lang | relURL }}" class="px-3 py-2 flex items-center">
+                        <img src="https://flagcdn.com/w40/{{ $flagCode }}.png" 
+                             alt="{{ .LanguageName }} Flag" 
+                             class="w-6 h-4 mr-2">
+                    </a>
+                {{ end }}
+            </div>
+            
+            
+            
 
 
         </ul>

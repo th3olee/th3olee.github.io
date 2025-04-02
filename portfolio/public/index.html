@@ -8,6 +8,12 @@
   <link href="/css/main.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery.css">
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.umd.js"></script>
+  
+
+
 
 
 
@@ -49,6 +55,30 @@ https://twitter.com/theolejeune" class="hover:underline"><i class="fa-brands fa-
             </li>
             <li> <i class="fa-solid fa-circle-half-stroke"></i>
             </li>
+            <div class="flex space-x-4">
+                
+                    
+                    
+                    
+                    <a href="/fr" class="px-3 py-2 flex items-center">
+                        <img src="https://flagcdn.com/w40/fr.png" 
+                             alt="Français Flag" 
+                             class="w-6 h-4 mr-2">
+                    </a>
+                
+                    
+                      
+                    
+                    <a href="/en" class="px-3 py-2 flex items-center">
+                        <img src="https://flagcdn.com/w40/gb.png" 
+                             alt="English Flag" 
+                             class="w-6 h-4 mr-2">
+                    </a>
+                
+            </div>
+            
+            
+            
 
 
         </ul>
@@ -94,11 +124,11 @@ https://twitter.com/theolejeune" class="hover:underline"><i class="fa-brands fa-
   <main  style="width: 60%; margin-left: 20%; margin-right: 20%; margin-top: 10%;">
     
 <div class="welcome space-y-16 "></div>
-    <h1 class="text-8xl text-gray-300 font-bold mb-16">I'm <strong class="text-gray-900">Théo Lejeune</strong></h1>
+    <h1 class="text-8xl text-gray-300 font-bold mb-16">Hi, I&#39;m <strong class="text-gray-900">Théo Lejeune</strong></h1>
     <p class="text-2xl leading-relaxed mb-16 w-1/2">A security-focused developer building resilient applications and uncover vulnerabilities before attackers do. I specialize in penetration testing, secure coding, and building modern, defense-in-depth applications.</p>
 
     <div class="mt-8 space-x-8 mb-32">
-        <a href="/resume.pdf" class="bg-gray-900 text-white px-8 py-4 rounded-lg hover:bg-blue-300">See my resume</a>
+        <a href="/cv/" class="bg-gray-900 text-white px-8 py-4 rounded-lg hover:bg-blue-300">See my resume</a>
         <a href="/contact" class="bg-gray-300 text-white px-8 py-4 rounded-lg hover:bg-blue-300">Get in touch</a>
     </div>
 </div>
@@ -127,33 +157,48 @@ https://twitter.com/theolejeune" class="hover:underline"><i class="fa-brands fa-
 
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-  <div class="bg-white rounded-3xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center justify-between aspect-square">
-    <h2 class="text-4xl font-semibold text-gray-900 text-center my-8">About me</h2>
-        <p class="text-xl text-gray-500 text-center mb-6">Who am I and what I do</p>
-        <img src="./images/profile.png" alt="Image" class="w-full mt-auto rounded-3xl" />
 
-      </div>
-      
+  <a href="https://example.com/bookshelf" class="block">
 
-      <div class="bg-white rounded-3xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center justify-between aspect-square">
-        <h2 class="text-4xl font-semibold text-gray-900 text-center my-8">Notebook</h2>
-        <p class="text-xl text-gray-500 text-center mb-6">My thoughts, insights and reflections</p>
-        <img src="./images/profile.png" alt="Image" class="w-full mt-auto rounded-3xl" />
+    <div
+      class="bg-white rounded-3xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center justify-between aspect-square overflow-hidden">
+      <h2 class="text-4xl font-semibold text-gray-900 text-center my-8">About me</h2>
+      <p class="text-xl text-gray-500 text-center mb-6">Who am I and what I do</p>
+      <img src="./images/profile.png" alt="Image" class="w-full mt-auto rounded-3xl" />
 
-      </div>
-      <div class="bg-white rounded-3xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center justify-between aspect-square">
-        <h2 class="text-4xl font-semibold text-gray-900 text-center my-8">Bookshelf</h2>
-        <p class="text-xl text-gray-500 text-center mb-6">Who am I and what I do</p>
-        <img src="https://via.placeholder.com/150" alt="Image" class="w-24 h-24 object-cover rounded-full mb-4" />
+    </div>
+  </a>
 
-      </div>
-      
-      <div class="bg-white rounded-3xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center justify-between aspect-square">
-        <h2 class="text-4xl font-semibold text-gray-900 text-center my-8">Tech Stack</h2>
-        <p class="text-xl text-gray-500 text-center mb-6">The dev tools, apps, devices and games I use and play</p>
-        <img src="./images/stack.png" alt="Image" class="w-full mt-auto rounded-3xl" />
-      </div>
-      
+  <a href="https://example.com/bookshelf" class="block">
+
+    <div
+      class="bg-white rounded-3xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center justify-between aspect-square overflow-hidden">
+      <h2 class="text-4xl font-semibold text-gray-900 text-center my-8">Notebook</h2>
+      <p class="text-xl text-gray-500 text-center mb-6">My thoughts, insights and reflections</p>
+      <img src="./images/notebook2.png" alt="Image" class="w-full mt-auto rounded-3xl object-scale-down" />
+
+    </div>
+  </a>
+
+  <a href="/gallery/" class="block">
+    <div
+      class="bg-white rounded-3xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center justify-between aspect-square overflow-hidden">
+      <h2 class="text-4xl font-semibold text-gray-900 text-center my-8">Photo Gallery</h2>
+      <p class="text-xl text-gray-500 text-center mb-6">A collection of my favorite photos</p>
+      <img src="./images/gallery.png" alt="Photo Gallery" class="w-full mt-auto rounded-3xl object-cover" />
+    </div>
+  </a>
+
+  <a href="https://example.com/bookshelf" class="block">
+
+    <div
+      class="bg-white rounded-3xl shadow-sm hover:shadow-md transition-shadow flex flex-col items-center justify-between aspect-square overflow-hidden">
+      <h2 class="text-4xl font-semibold text-gray-900 text-center my-8">Tech Stack</h2>
+      <p class="text-xl text-gray-500 text-center mb-6">The dev tools, apps, devices and games I use and play</p>
+      <img src="./images/stack.png" alt="Image" class="w-full mt-auto rounded-3xl" />
+    </div>
+  </a>
+
 </div>
 
 
@@ -163,14 +208,16 @@ https://twitter.com/theolejeune" class="hover:underline"><i class="fa-brands fa-
 <footer style="width: 100%; margin-top: 2rem; text-align: center;">
     
 
-<footer class="blur-background text-black py-8">
+<footer class=" text-black">
     <div class="container mx-auto flex justify-between items-center">
         <div class="flex items-center space-x-4">
             <img src="/images/icons/icon-bg.png" alt="Logo" class="h-10">
             <div>
                 <p>Thank you for your visit</p>
-                <p>&copy; 2023 Your Name. All rights reserved.</p>
-            </div>
+                <p>&copy; <span id="current-year"></span> Theo Lejeune. All rights reserved.</p>
+                <script>
+                    document.getElementById('current-year').textContent = new Date().getFullYear();
+                </script>    </div>
         </div>
         <div class="flex space-x-8">
             <div>
@@ -199,35 +246,15 @@ https://twitter.com/theolejeune" class="hover:underline"><i class="fa-brands fa-
 <div class="footer-background"></div>
 
 <style>
-    .blur-background {
-         
-        background: rgba(255, 255, 255, 0.26);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(9.9px);
-        -webkit-backdrop-filter: blur(9.9px);
-        border: 1px solid rgba(255, 255, 255, 0.42);
-    }
+
 
   
 footer {
     position: relative;  
     z-index: 1;  
     overflow: hidden;  
-    height: 200px;  
 }
 
-.footer-background {
-    position: absolute;  
-    bottom: -1100px;  
-    left: 0;
-    width: 100%;
-    height: 100vh;  
-    background-image: url("images/ccchaos.svg");  
-    background-position: center bottom;  
-    background-size: cover;  
-    background-repeat: no-repeat;
-    z-index: -1;  
-}
 
 
 

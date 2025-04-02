@@ -2,3 +2,6 @@ portfolio/node_modules/*
 portfolio/.env
 portfolio/package-lock.json
 portfolio/.hugo_build.lock
+portfolio/public/*
+portfolio\public\*
+portfolio/public/galerie/*

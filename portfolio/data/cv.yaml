@@ -1,0 +1,80 @@
+name: "Theo Lejeune"
+title: "Cybersecurity Engineer"
+
+education:
+  - degree: "Computer Engineering"
+    institution: "IMT Nord Europe"
+    period: "2017 - 2022"
+    logo: "imt.fr"  # Domaine pour récupérer le logo
+
+experience:
+  - company: "Thales"
+    period: "2024 - Present"
+    role: "Cybersecurity Engineer"
+    logo: "thalesgroup.com"
+    tasks:
+      - "Performing penetration tests on various systems"
+      - "Conducting code audits on Web applications"
+      - "Helping company with the integration of security in the development process"
+
+  - company: "Thales"
+    period: "2022 - 2024"
+    role: "C++ Engineer / Work Package Manager"
+    logo: "thalesgroup.com"
+    tasks:
+      - "Managing a workload in C++ and JEE"
+      - "Developing new features"
+      - "Bug resolution"
+
+  - company: "OpCodes"
+    period: "2022"
+    role: "Cybersecurity Engineer"
+    logo: "opcodes.fr"
+    tasks:
+      - "Performing Web3 and Web2 code audits (Rust)"
+      - "Developing in Rust on the Solana blockchain"
+
+  - company: "IVS"
+    period: "2021"
+    role: "DevOps Engineer"
+    logo: "ivstore.fr"
+    tasks:
+      - "Developing a web monitoring tool for IOT devices"
+
+
+  - company: "Sitra"
+    period: "2020"
+    role: "Business Intelligence Engineer"
+    logo: "sitra-group.com"
+    tasks:
+      - "Developing analysis tools for decision-making using PowerBI"
+      - "Creating dashboards to assist managers in data-driven decisions"
+  
+  - company: "IVS"
+    period: "2019"
+    role: "System Administrator"
+    logo: "ivstore.fr"
+    tasks:
+      - "Developed a secure solution for wireless access to the IVStore product"
+      - "Created an application for product installation"
+      - "Resolved network-related issues"
+
+
+skills:
+  - "System Development: C++ / Rust"
+  - "Cybersecurity: Penetration testing / Code auditing"
+  - "Deployment: Server administration / Docker"
+
+languages:
+    - name: "French"
+      level: "Native"
+      flag: "fr"
+    - name: "English"
+      level: "TOEIC 990/990"
+      flag: "gb"
+    - name: "German"
+      level: "Intermediate"
+      flag: "de"
+    - name: "Chinese"
+      level: "HSK 1"
+      flag: "cn"
